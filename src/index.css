@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind  utilities;
+
+body {
+  background-image: url('./assets/Levelbackground.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.customgradient {
+  background: rgb(255,153,102);
+  background: linear-gradient(0deg, rgba(255,153,102,1) 0%, rgba(198,115,64,1) 21%, rgba(250,224,175,1) 55%, rgba(213,114,65,1) 84%, rgba(163,77,48,1) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.customgradient2 {
+  background: rgb(113,112,113);
+  background: linear-gradient(0deg, rgba(113,112,113,1) 12%, rgba(99,99,99,1) 38%, rgba(121,121,121,1) 64%, rgba(89,88,87,1) 94%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.headerfooterbackg {
+  background-color: #0C0B0B;
+}
+
+.customtextpad {
+  display:block;
+  position:relative;
+  margin-top: 380px;
+}
+
+.customtextpad2 {
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.customtextpad3 {
+  display:block;
+  position:relative;
+  margin-top: -30px;
+}
